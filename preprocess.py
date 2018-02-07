@@ -1,9 +1,14 @@
 import os
 from urllib import urlretrieve
 import json
+import nltk
+import pprint
+import sys
 from tqdm import tqdm
 squad_url = 'https://rajpurkar.github.io/SQuAD-explorer/dataset/'
 
+reload(sys)
+sys.setdefaultencoding('utf8')
 def reporthook(t):
     last_b = [0]
 
@@ -47,6 +52,26 @@ def read_json(file_dir, file_name):
         data_loaded = json.load(json_file)
     return data_loaded
 
+def tokenize(sentence):
+    tokens = [token.replace("''", '" ').replace("``",'" ') for token in nltk.word_tokenize(sentence)]
+    return map(lambda x:x.encode('utf8'), tokens)
+
+def mapping(context, context_tokenize):
+    acc = ''
+    context_token_idx = 0
+    token_map = dict()
+
+    for char_idx, char in enumerate(context):
+        if char != u' ':
+            acc += char
+            context_token = unicode(context_tokenize[context_token_idx])
+            if acc == context_token:
+                start_idx = char_idx - len(acc) + 1
+                token_map[start_idx] = [acc, context_token_idx]
+                context_token_idx += 1
+                acc = ''
+    return token_map
+
 def convert_data(data, directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -63,28 +88,36 @@ def convert_data(data, directory):
 
         for articleId in tqdm(range(len(data['data'])), desc="Preprocessing {}".format(typ)):
             articles  = data['data'][articleId]['paragraphs']
-            
+
             for contextId in range(len(articles)):
                 context = articles[contextId]['context']
+                context.replace("''",'" ')
+                context.replace("``",'" ')
                 qas = articles[contextId]['qas']
-                
+                context_tokens = tokenize(context)
+                context_map = mapping(context, context_tokens)
                 for questionId in range(len(qas)):
                     question = qas[questionId]['question']
                     answers = qas[questionId]['answers']
-                    
+                    question_tokens = tokenize(question)
+
                     qn += 1
                     for answerId in range(1):
                         answer_txt = answers[answerId]['text']
+                        answer_tokens = tokenize(answer_txt)
 
                         answer_start = answers[answerId]['answer_start']
                         answer_end = answer_start + len(answer_txt)
                         
                         try:
+                            start_idx = context_map[answer_start][1]
+                            end_idx = context_map[answer_end - len(answer_tokens[-1])][1]
+
                             check = context[answer_end]
-                            context_file.write(context + '\n')
-                            question_file.write(question + '\n')
-                            answer_file.write(answer_txt + '\n')
-                            span_file.write("( " + str(answer_start) + " " + str(answer_end) +  ")\n") 
+                            context_file.write(' '.join(context_tokens) + '\n')
+                            question_file.write(' '.join(question_tokens) + '\n')
+                            answer_file.write(' '.join(answer_tokens) + '\n')
+                            span_file.write(' '.join([str(start_idx), str(end_idx)]) +  "\n") 
 
                         except Exception as e:
                             skipped += 1
