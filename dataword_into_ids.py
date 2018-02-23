@@ -2,6 +2,7 @@ import os
 import numpy as np
 import re
 from tqdm import tqdm
+import mmap
 
 def binary_search(lst, target):
     low = 0
@@ -23,6 +24,16 @@ def tokenizer(sentence):
         tokens.extend(re.split(" ", word))
 
     return [w for w in tokens if w]
+
+def get_num_lines(path):
+    
+    fp = open(path, "r+")
+    buf = mmap.mmap(fp.fileno(), 0)
+    lines = 0
+    while buf.readline():
+        lines += 1
+
+    return lines
 
 def initialize_vocab(vocab_path):
     if os.path.exists(vocab_path):
@@ -94,15 +105,33 @@ def process_glove(glove_dir, vocab, glove_dim):
                     glove[idx, :] = vector 
                     found += 1
 
-                if find and found < 10000:
-                    print word
-
         print "{} word out of {} word found in glove data".format(found, len(vocab))
         np.savez_compressed(os.path.join(glove_dir, "glove.trimmered_{}".format(glove_dim)))
     
     else:
-        print "file already presents"
+        print "Trimmed glove file is already presented.."
+
+def sentence_to_ids(sentence, vocab):
+    words = tokenizer(sentence)
+
+    return [vocab.get(w, 'UNK_ID') for w in words]
+
+def data_to_ids(data_path, vocab, save_path):
+
+    if not os.path.exists(save_path):
+        print "Tokenizing data in {}".format(data_path)
+
+        with open(data_path, 'r') as data_file:
+            with open(save_path, 'w') as save_file:
+                
+                for line in tqdm(data_file, total = get_num_lines(data_path)):
+
+                    tokens = sentence_to_ids(line, vocab)
+                    save_file.write(" ".join([str(tok) for tok in tokens]) + "\n")
     
+    else:
+        print "{} already exists..".format(save_path)
+
 if __name__=='__main__':
 
     train_dir = os.path.join('data/processed/squad', 'train')
@@ -111,12 +140,24 @@ if __name__=='__main__':
     vocab_dir = os.path.join('data', 'processed', 'vocab')
 
     create_vocabulary(vocab_dir, [train_dir + '/contexts',
-                                  train_dir + '/answers',
+                                  train_dir + '/questions',
                                   dev_dir + '/contexts',
-                                  dev_dir + '/answers'])
+                                  dev_dir + '/questions'])
 
     vocab, rev_vocab = initialize_vocab(vocab_dir + '/vocab.dat')
 
-    print len(rev_vocab)
     process_glove(glove_dir, rev_vocab, 100)
+    
+    context_train_ids_path = os.path.join(train_dir, "ids.contexts")
+    question_train_ids_path = os.path.join(train_dir, "ids.questions")
+
+    data_to_ids(train_dir + '/contexts', vocab, context_train_ids_path)
+    data_to_ids(train_dir + '/questions', vocab, question_train_ids_path)
+
+    context_dev_ids_path = os.path.join(dev_dir, "ids.contexts")
+    question_dev_ids_path = os.path.join(dev_dir, "ids.questions")
+    
+    data_to_ids(dev_dir + '/contexts', vocab, context_dev_ids_path)
+    data_to_ids(dev_dir + '/questions', vocab, question_dev_ids_path)
+
 
