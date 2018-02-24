@@ -7,7 +7,7 @@ import mmap
 def binary_search(lst, target):
     low = 0
     high = len(lst) - 1
-    while low < high:
+    while low <= high:
         avg = (low + high) / 2
         if lst[avg][0] == target:
             return lst[avg][1]
@@ -16,7 +16,7 @@ def binary_search(lst, target):
         else:
             high = avg - 1
 
-    return False
+    return -1
 
 def tokenizer(sentence):
     tokens = []
@@ -73,7 +73,7 @@ def create_vocabulary(vocab_dir, data_paths):
 def process_glove(glove_dir, vocab, glove_dim):
     vocab_with_idx = [(value, counter) for counter, value in enumerate(vocab)]
     vocab_with_idx.sort()
-
+    
     if not os.path.exists(os.path.join(glove_dir, "glove.trimmered_{}.npz".format(glove_dim))):
         glove_path = os.path.join(glove_dir, 'glove.6B.{}d.txt'.format(glove_dim))
         
@@ -88,25 +88,24 @@ def process_glove(glove_dir, vocab, glove_dim):
                 
                 find = False
                 idx = binary_search(vocab_with_idx, word)
-                if idx:
-                    find = True
+                
+                if idx != -1:
                     glove[idx, :] = vector
                     found += 1
                 
                 idx = binary_search(vocab_with_idx, word.capitalize())
-                if idx:
-                    find = True
+                if idx != -1:
                     glove[idx, :] = vector 
                     found += 1
                 
                 idx = binary_search(vocab_with_idx, word.upper())
-                if idx: 
-                    find = True
+                if idx != -1: 
                     glove[idx, :] = vector 
                     found += 1
 
+        print glove[0]
         print "{} word out of {} word found in glove data".format(found, len(vocab))
-        np.savez_compressed(os.path.join(glove_dir, "glove.trimmered_{}".format(glove_dim)))
+        np.savez_compressed(os.path.join(glove_dir, "glove.trimmered_{}".format(glove_dim)), glove=glove)
     
     else:
         print "Trimmed glove file is already presented.."
