@@ -9,7 +9,7 @@ import os
  
 # The text that you want to convert to audio
 
-mytext = recog()
+mytext = raw_input("Input the text that you want to speak: ")
  
 # Language in which you want to convert
 language = 'en'
