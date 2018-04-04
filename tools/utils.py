@@ -10,7 +10,7 @@ def read(data_file, size):
             count += 1
 
             if size is not None:
-                if count >= size
+                if count >= size:
                     break
 
     return data
@@ -45,7 +45,7 @@ def process_span(span_data, max_context_len):
 
     return start_span_vector, end_span_vector
 
-def load_data(data_dir, max_context_len, max_question_len, size):
+def load_data(data_dir, max_context_len, max_question_len, size=None):
 
     train_context = read(os.path.join(data_dir, 'train/ids.contexts'), size)
     train_question = read(os.path.join(data_dir, 'train/ids.questions'), size)
@@ -55,6 +55,8 @@ def load_data(data_dir, max_context_len, max_question_len, size):
     train_qustion_data, train_question_mask = pad_sequence(train_question, max_question_len)
     star_span_vector, end_span_vector = process_span(train_span, max_context_len)
     
+    train_data = list(zip([train_context_data, train_context_mask, train_question_data,
+                          train_question_mask, start_span_vector,end_span_vector, span])
 
 def load_embeddings(emd_dir):
     return np.load(dir)['glove']
