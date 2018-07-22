@@ -13,3 +13,4 @@ def recog():
 	except sr.RequestError as e:
 		print("Could not request results; {0}".format(e))
 	return text
+

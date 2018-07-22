@@ -1,2 +1,5 @@
 data/download/glove
 data/processed/vocab
+summary
+tools
+train

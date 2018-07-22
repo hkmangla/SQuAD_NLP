@@ -1,0 +1,1573 @@
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/anaconda2/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:107: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/anaconda2/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:107: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/anaconda2/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:107: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/anaconda2/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:107: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/anaconda2/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:107: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/hkmangla/anaconda2/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:107: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4/baseline4-0
+tensorflow - INFO - Restoring parameters from train/baseline4/baseline4-0
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4/baseline4-0
+tensorflow - INFO - Restoring parameters from train/baseline4/baseline4-0
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4/baseline4-0
+tensorflow - INFO - Restoring parameters from train/baseline4/baseline4-0
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4/baseline4-0
+tensorflow - INFO - Restoring parameters from train/baseline4/baseline4-0
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Initializing model with fresh parameters
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/python/util/tf_should_use.py:118: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-4
+tensorflow - INFO - Restoring parameters from train/baseline4-4
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-9
+tensorflow - INFO - Restoring parameters from train/baseline4-9
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/kunalaggarwal58/.local/lib/python2.7/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:84: calling l2_normalize (from tensorflow.python.ops.nn_impl) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:76: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/encoder.py:68: calling softmax (from tensorflow.python.ops.nn_ops) with dim is deprecated and will be removed in a future version.
+Instructions for updating:
+dim is deprecated, use axis instead
+tensorflow - WARNING - From /home/kunalaggarwal58/college_project/qa_system.py:128: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See tf.nn.softmax_cross_entropy_with_logits_v2.
+
+tensorflow - INFO - Reading model parameters from train/baseline4-9
+tensorflow - INFO - Restoring parameters from train/baseline4-9
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - WARNING - From /home/hkmangla/workspace/college_project/qa_system.py:63: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+                                                                                                                                                                                                                                                                            tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Restoring parameters from train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Reading model parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
+tensorflow - INFO - Restoring parameters from /home/hkmangla/workspace/college_project/train/baseline4-14
