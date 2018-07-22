@@ -14,4 +14,3 @@ def recog():
 		print("Could not request results; {0}".format(e))
 	return text
 
-print(recog())

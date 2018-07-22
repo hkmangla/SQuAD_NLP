@@ -10,7 +10,7 @@ from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 from tensorflow.python.ops import variable_scope as vs
 import sys
-sys.path.append('tools/')
+sys.path.append('/home/hkmangla/workspace/college_project/tools/')
 from utils import variable_summaries
 
 

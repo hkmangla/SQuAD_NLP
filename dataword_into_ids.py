@@ -77,7 +77,7 @@ def process_glove(glove_dir, vocab, glove_dim):
     if not os.path.exists(os.path.join(glove_dir, "glove.trimmered_{}.npz".format(glove_dim))):
         glove_path = os.path.join(glove_dir, 'glove.6B.{}d.txt'.format(glove_dim))
         
-        glove = np.zeros((len(vocab), glove_dim))
+        glove = np.random.randn(len(vocab), glove_dim)
         found = 0
 
         with open(glove_path, 'r') as f:

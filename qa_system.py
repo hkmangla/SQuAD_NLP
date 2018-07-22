@@ -60,7 +60,7 @@ class QASystem(object):
         self.global_batch_num_placeholder = tf.placeholder(tf.int32, shape=(None))
 
         # ==== assemble pieces ====
-        with tf.variable_scope("qa", initializer=tf.uniform_unit_scaling_initializer(1.0)):
+        with tf.variable_scope("qa", initializer=tf.initializers.variance_scaling(1.0)):
             context_embeddings, question_embeddings = self.setup_embeddings()
             self.pred_s, self.pred_e = self.setup_prediction(context_embeddings, question_embeddings)
             self.loss = self.setup_loss(self.pred_s, self.pred_e)
@@ -214,7 +214,10 @@ class QASystem(object):
     def answer(self, session, test_batch):
 
         p_s, p_e = self.decode(session, test_batch)
-
+        
+        # print(p_s, p_e)
+        p_s = [p_s]
+        p_e = [p_e]
         a_s = np.argmax(p_s, axis=1)
         a_e = np.argmax(p_e, axis=1)
 
@@ -244,11 +247,14 @@ class QASystem(object):
 
         return val_cost
 
-    def formulate_answer(self, context, vocab, start, end):
+    def formulate_answer(self, und_ids, context_text, context, vocab, start, end):
         ans = ''
         for index in xrange(start, end+1):
             if index < len(context):
-                ans += vocab[context[index]]
+                if context[index] in und_ids:
+                    ans += context_text[index] 
+                else:
+                    ans += vocab[context[index]]
                 ans += ' '
 
         return ans

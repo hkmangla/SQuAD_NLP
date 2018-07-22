@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="264" xmlns:dc="http://purl.org/dc/elements/1.1/" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="3.0.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Thu Apr 26 12:18:55 2018
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.date">Thu Apr 26 09:35:35 2018
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="41" edit-time="9814" last-saved="1524725335" uid="09b0ad04-4907-11e8-8558-e855e0dec6de">
+<version id="41" started="1524715535" uid="e3689be0-491d-11e8-8558-e855e0dec6de" auto="0" top-xid="2"/>
+</history>
+<styles>
+<s type="P" name="Normal" basedon="" followedby="Current Settings" props="font-family:Liberation Serif; margin-top:0pt; font-variant:normal; margin-left:0pt; text-indent:0in; widows:2; font-style:normal; font-weight:normal; text-decoration:none; color:000000; line-height:1.0; text-align:left; margin-bottom:0pt; text-position:normal; margin-right:0pt; bgcolor:transparent; font-size:12pt; font-stretch:normal"/>
+<s type="P" name="Body Text" basedon="_Normal" props="margin-bottom:0.0833in"/>
+<s props="" name="Body Text Char" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="Default Paragraph Font" basedon="Normal" type="C"/>
+<s props="" name="Footer Char" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="Header Char" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="Heading 2 Char" basedon="Default Paragraph Font" type="C"/>
+<s type="C" name="Heading 3 Char" basedon="Default Paragraph Font" props="font-weight:bold; font-family:Times New Roman; font-size:13.5pt"/>
+<s props="" name="Heading 5 Char" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="Hyperlink" basedon="Default Paragraph Font" type="C"/>
+<s type="P" name="List Paragraph" basedon="_Normal" props="margin-left:0.5000in"/>
+<s props="" name="No List" basedon="Normal" type="P"/>
+<s type="P" name="Normal (Web)" basedon="_Normal" props="margin-top:0.0694in; font-size:12pt; margin-bottom:0.0694in; font-family:Times New Roman"/>
+<s props="" name="Normal Table" basedon="Normal" type="P"/>
+<s type="C" name="Strong" basedon="Default Paragraph Font" props="font-weight:bold"/>
+<s props="" name="Subtle Emphasis" basedon="Default Paragraph Font" type="C"/>
+<s type="P" name="Table Contents" basedon="Body Text" props="lang:hi-IN; font-size:12pt; font-family:Liberation Serif"/>
+<s props="" name="Table Grid" basedon="Normal Table" type="P"/>
+<s props="" name="_Normal" basedon="Normal" type="P"/>
+<s type="P" name="footer" basedon="_Normal" props="tabstops:3.250000in/C0,6.500000in/R0"/>
+<s type="P" name="header" basedon="_Normal" props="tabstops:3.250000in/C0,6.500000in/R0"/>
+<s followedby="_Normal" name="heading 2" basedon="_Normal" type="P" props="margin-top:0.0278in"/>
+<s type="P" name="heading 3" basedon="_Normal" props="margin-top:0.0694in; font-weight:bold; margin-bottom:0.0694in; font-family:Times New Roman; font-size:13.5pt"/>
+<s followedby="_Normal" name="heading 5" basedon="_Normal" type="P" props="margin-top:0.0278in"/>
+<s props="" name="hs_cos_wrapper" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="keyword2" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="mw-headline" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="preprocessor2" basedon="Default Paragraph Font" type="C"/>
+<s props="" name="string2" basedon="Default Paragraph Font" type="C"/>
+</styles>
+<pagesize pagetype="Custom" orientation="portrait" width="209.902778" height="297.003611" units="mm" page-scale="1.000000"/>
+<section xid="1">
+<p style="Normal" xid="2" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:14pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">5.4 Score Analysis and Question Answering Experiments</c></p>
+<p style="Normal" xid="117" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:14pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="118" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">We have implements our model and training has been done. Now, we will analyze the performance of model and calculate it’s scores. We will see the results on the SQuAD test set which we have downloaded in the chapter 4.</c></p>
+<p style="Normal" xid="119" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="120" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">We created a python file name qa_dev.py which will load the pre-trained parameters and run it on the the whole SQuAD test set. </c></p>
+<p style="Normal" xid="123" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="129" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">5.4.1 Scoring Scheme</c></p>
+<p style="Normal" xid="127" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">We analyzed the F1 and EM score of the model. Before that let me explain you what is F1 score and EM Score.</c></p>
+<p style="Normal" xid="132" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="130" props="font-family:Liberation Serif; font-size:12pt; dom-dir:ltr; color:000000; lang:en-US; text-align:left; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">5.4.1.1 F1 Score </c></p>
+<p style="Normal" xid="125" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Before going to explain the F1 Score, you should know about what is precision and what is recall.</c></p>
+<p style="Normal" xid="135" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="136" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">There are 4 type of results possible in a model prediction. Which are</c></p>
+<p style="Normal" xid="153" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="154" props="font-family:Liberation Serif; font-size:12pt; dom-dir:ltr; text-decoration:none; font-weight:normal; text-position:normal; text-align:center; font-style:normal"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">True Condition</c></p>
+<frame xid="162" props="frame-col-ypos:3.996528in; bot-style:1; frame-col-xpos:0.274306in; position-to:column-above-text; left-style:1; xpos:-1.567361in; right-style:1; bg-style:1; ypos:0.385417in; frame-width:1.501389in; frame-height:0.279861in; frame-page-ypos:4.996528in; frame-pref-column:0; wrap-mode:wrapped-both; top-style:1; frame-page-xpos:1.274306in; background-color:ffffff; frame-type:textbox; tight-wrap:0; frame-pref-page:0">
+<p xid="163" props="text-align:center; dom-dir:ltr"><c props="font-weight:bold">Predicted Condition</c></p>
+</frame><table xid="139" props="table-column-props:1.4375in/1.6875in/; table-row-heights:0.3750in/0.3750in/; table-column-leftpos:1.8125in">
+<cell xid="140" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="141" props="text-align:center">True Positive</p>
+</cell>
+<cell xid="143" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="144" props="text-align:center">False Positive</p>
+</cell>
+<cell xid="146" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="147" props="text-align:center">False Negative</p>
+</cell>
+<cell xid="149" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="150" props="text-align:center">True Negative</p>
+</cell>
+</table>
+<p style="Normal" xid="133" props="text-align:center; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">Table 5.1 Type of predictions</c></p>
+<p style="Normal" xid="134" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="164" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US"></c><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">Precision: </c><c>﻿Precision is the fraction of retrieved documents that are relevant</c> to the query. i.e</p>
+<p style="Normal" xid="177" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="168" props="text-align:center; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">Precision = True Positive / (True Positive + False Positive)</c></p>
+<p style="Normal" xid="169" props="text-align:center; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="170" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US">Recall: </c><c>﻿Recall is the fraction of the relevant documents that are successfully retrieved i.e.</c></p>
+<p style="Normal" xid="171" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="172" props="text-align:center; dom-dir:ltr"><c>﻿</c><c props="font-weight:bold">recall = True positive / (True positive + False negative)</c></p>
+<p style="Normal" xid="181" props="text-align:center; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="182" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal">Now, as we know about the precision and recall. Now, we can calculate the f1 score from them. F1 score is nothing but is the harmonic average of the precision and the recall. i.e.</c></p>
+<p style="Normal" xid="183" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="184" props="text-align:center; dom-dir:ltr"><c props="font-weight:bold">F1 Score  = (2*precision*recall / precision + recall) </c></p>
+<p style="Normal" xid="185" props="text-align:center; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="186" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">5.4.1.2 EM Score</c></p>
+<p style="Normal" xid="188" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="189" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="190" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="191" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="192" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="193" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="194" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="195" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="196" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="197" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="187" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="173" props="text-align:center; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="174" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="124" props="text-align:left; dom-dir:ltr"><c props="font-family:Liberation Serif; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="115" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Liberation Serif; font-size:14pt; color:000000; text-decoration:none; text-position:normal; font-weight:bold; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="114" props="font-family:Liberation Serif; font-size:12pt; dom-dir:ltr; color:000000; lang:en-US; text-align:left; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"><c></c></p>
+<p style="Normal" xid="18" props="text-align:left; dom-dir:ltr"><c></c><c props="font-weight:bold">6.1 Conclusion</c><c> </c></p>
+<p style="Normal" xid="3" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="13" props="text-align:left; dom-dir:ltr"><c></c><c>In this paper, we introduce Bidirectional Attention Flow Layer, a multi-stage hierarchical process that represents the context at different levels and uses a bi-directional attention flow mechanism to achieve a query-aware context representation without early summarization. The experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD).</c></p>
+<p style="Normal" xid="15" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="16" props="text-align:left; dom-dir:ltr"><c>Now, we will analyses and demonstrate the how much is our model is capable to answering the question. What is it’s testing score? How well is it performing?</c></p>
+<p style="Normal" xid="19" props="text-align:left; dom-dir:ltr"><c>As we have seen in the previous chapter, how well is our model performing and analyzed the F1 and EM scores. Now, we will compare our model score with the others to know that how much it is doing well than others.</c></p>
+<p style="Normal" xid="20" props="text-align:left; dom-dir:ltr"><c></c></p>
+<p style="Normal" xid="21" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">6.1.1 Comparison with other Models</c></p>
+<p style="Normal" xid="22" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="23" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal">We have analyzed our model performance in previous chapter and calculated it’s scores. Model is performing well in comparison to many other model that have been implemented earlier. </c></p>
+<p style="Normal" xid="24" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="25" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal">We checked the results on SQuAD test set and compare the results.</c></p>
+<p style="Normal" xid="26" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="28" props="text-align:center; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<table xid="29" props="table-row-heights:0.2500in/0.1875in/0.1875in/0.1875in/0.1875in/0.1875in/0.2500in/0.1875in/0.2500in/; table-column-props:3.4375in/1.1875in/0.9375in/">
+<cell xid="30" props="bot-attach:1; left-attach:0; right-attach:1; top-attach:0">
+<p style="Normal" xid="31" props="text-align:center"><c props="font-weight:bold">Model Name</c></p>
+</cell>
+<cell xid="33" props="bot-attach:1; left-attach:1; right-attach:2; top-attach:0">
+<p style="Normal" xid="34" props="text-align:center"><c props="font-weight:bold">F1 Score</c></p>
+</cell>
+<cell xid="36" props="bot-attach:1; left-attach:2; right-attach:3; top-attach:0">
+<p style="Normal" xid="37" props="text-align:center"><c props="font-weight:bold">EM Score</c></p>
+</cell>
+<cell xid="39" props="bot-attach:2; left-attach:0; right-attach:1; top-attach:1">
+<p style="Normal" xid="40" props="text-align:left; dom-dir:ltr">Logistic Regression Baseline</p>
+</cell>
+<cell xid="42" props="bot-attach:2; left-attach:1; right-attach:2; top-attach:1">
+<p style="Normal" xid="43" props="text-align:center">40.4</p>
+</cell>
+<cell xid="45" props="bot-attach:2; left-attach:2; right-attach:3; top-attach:1">
+<p style="Normal" xid="46" props="text-align:center">51.0</p>
+</cell>
+<cell xid="48" props="bot-attach:3; left-attach:0; right-attach:1; top-attach:2">
+<p style="Normal" xid="49">Dynamic Chunk Reader</p>
+</cell>
+<cell xid="51" props="bot-attach:3; left-attach:1; right-attach:2; top-attach:2">
+<p style="Normal" xid="52" props="text-align:center">62.5</p>
+</cell>
+<cell xid="54" props="bot-attach:3; left-attach:2; right-attach:3; top-attach:2">
+<p style="Normal" xid="55" props="text-align:center">71.0</p>
+</cell>
+<cell xid="57" props="bot-attach:4; left-attach:0; right-attach:1; top-attach:3">
+<p style="Normal" xid="58">Fine-Grained Gating</p>
+</cell>
+<cell xid="60" props="bot-attach:4; left-attach:1; right-attach:2; top-attach:3">
+<p style="Normal" xid="61" props="text-align:center">62.5</p>
+</cell>
+<cell xid="63" props="bot-attach:4; left-attach:2; right-attach:3; top-attach:3">
+<p style="Normal" xid="64" props="text-align:center">73.3</p>
+</cell>
+<cell xid="66" props="bot-attach:5; left-attach:0; right-attach:1; top-attach:4">
+<p style="Normal" xid="67">Match-LSTM</p>
+</cell>
+<cell xid="69" props="bot-attach:5; left-attach:1; right-attach:2; top-attach:4">
+<p style="Normal" xid="70" props="text-align:center">64.7</p>
+</cell>
+<cell xid="72" props="bot-attach:5; left-attach:2; right-attach:3; top-attach:4">
+<p style="Normal" xid="73" props="text-align:center">73.7</p>
+</cell>
+<cell xid="75" props="bot-attach:6; left-attach:0; right-attach:1; top-attach:5">
+<p style="Normal" xid="76" props="text-align:left; dom-dir:ltr">Multi-Perspective Matching</p>
+</cell>
+<cell xid="78" props="bot-attach:6; left-attach:1; right-attach:2; top-attach:5">
+<p style="Normal" xid="79" props="text-align:center">65.5</p>
+</cell>
+<cell xid="81" props="bot-attach:6; left-attach:2; right-attach:3; top-attach:5">
+<p style="Normal" xid="82" props="text-align:center">75.1</p>
+</cell>
+<cell xid="84" props="bot-attach:7; left-attach:0; right-attach:1; top-attach:6">
+<p style="Normal" xid="85" props="text-align:left; dom-dir:ltr">Dynamic Co-attention Networks</p>
+</cell>
+<cell xid="87" props="bot-attach:7; left-attach:1; right-attach:2; top-attach:6">
+<p style="Normal" xid="88" props="text-align:center">66.2</p>
+</cell>
+<cell xid="90" props="bot-attach:7; left-attach:2; right-attach:3; top-attach:6">
+<p style="Normal" xid="91" props="text-align:center">75.9</p>
+</cell>
+<cell xid="93" props="bot-attach:8; left-attach:0; right-attach:1; top-attach:7">
+<p style="Normal" xid="94">R-Net</p>
+</cell>
+<cell xid="96" props="bot-attach:8; left-attach:1; right-attach:2; top-attach:7">
+<p style="Normal" xid="97" props="text-align:center"><c props="font-weight:bold">68.4</c></p>
+</cell>
+<cell xid="99" props="bot-attach:8; left-attach:2; right-attach:3; top-attach:7">
+<p style="Normal" xid="100" props="text-align:center"><c props="font-weight:bold">77.5</c></p>
+</cell>
+<cell xid="102" props="bot-attach:9; left-attach:0; right-attach:1; top-attach:8">
+<p style="Normal" xid="103">BiDAF (Ours)</p>
+</cell>
+<cell xid="105" props="bot-attach:9; left-attach:1; right-attach:2; top-attach:8">
+<p style="Normal" xid="106" props="text-align:center">68.0</p>
+</cell>
+<cell xid="108" props="bot-attach:9; left-attach:2; right-attach:3; top-attach:8">
+<p style="Normal" xid="109" props="text-align:center">77.3</p>
+</cell>
+</table>
+<p style="Normal" xid="27" props="text-align:center; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="112" props="text-align:center; dom-dir:ltr"><c props="font-weight:bold">Table 6.1 Score Comparison with other Models</c></p>
+<p style="Normal" xid="14" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c><c props="font-weight:bold"> </c></p>
+<p style="Normal" xid="113" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="213" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="214" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="215" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="216" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="217" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="218" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="219" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="220" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="221" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="224" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold">Abstract</c></p>
+<p style="Normal" xid="225" props="text-align:left; dom-dir:ltr"><c props="font-weight:bold"></c></p>
+<p style="Normal" xid="226" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-weight:normal">In the todays world where machine learning and Artificial intelligence is on its peak. Humans are trying to solve every problem by using machine learning algorithm. Machine </c><c props="font-family:Liberation Serif; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">comprehensions is the one of the problem that a human want to solve by computer. </c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:ar-SA">MC (Machine Comprehension) and QA (Question Answering) task have gained a significant popularity within a very short amount of time. Within a few years it has grown exponentially. The Natural Language Processing community and computer vision communities have shown a great interest in NLP. </c><c props="font-weight:normal">There is many models design to solve the same purpose and provides very good results. We also tried  to solve the problem of reading comprehension. </c></p>
+<p style="Normal" xid="229" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="230" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal">The main objective of our work is to provide a better model that can predict answer accurately of the query asked from the paragraph and an efficient model. We will try to implement a model which will overcome the drawbacks of previous model.</c></p>
+<p style="Normal" xid="231" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal"></c></p>
+<p style="Normal" xid="232" props="text-align:left; dom-dir:ltr"><c props="font-weight:normal">To do so, we will use a Bi-directional Attention Flow Layer of LSTM. Here, LSTM is the Long Short Term Memory. </c><c>Bi-Directional Attention Flow (B I DAF) network, a multi-stage hierarchical process that represents the context at different levels of granularity and uses bi-</c></p>
+<p style="Normal" xid="234" props="text-align:left; dom-dir:ltr"><c>directional attention flow mechanism to obtain a query-aware context representation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.</c><c props="font-weight:normal"> </c></p>
+<p style="Normal" xid="251" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" xid="252" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">The systems which are being trained end to end are now able to achieve promising results for a variety of operations in text &amp; image domains. One of the main reason for the enhancement in NLP has been the use of neural mechanism which enables to focus on a particular area in the context paragraph or within an image (fir Visual QA) for finding the most relevant answer to the question being asked.</c></p>
+<p style="Normal" xid="253" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" xid="254" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Previous mechanisms typically have some of the following characteristics First, Computed attention weights used for the extraction of the most useful information from the paragraph for answering the question involved summarizing the context into a fixed size word vector.</c></p>
+<p style="Normal" xid="256" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" xid="257" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Next, if the domain is text, they are most of the time dynamic, where the attention weights at present time are a function of the attended vector at the previous time step.</c></p>
+<p style="Normal" xid="258" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" xid="259" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">Third, they are usually unidirectional, where the query participates in the Context paragraph or image. In This article, we introduce the bi-directional network of attention Flow (B I DAF), a hierarchical system Multi-stage architecture for modeling context paragraph representations at different levels of granularity. (B) DAF includes character-level incorporation, at word and contextual level, it uses the two-way attention stream to get a representation of the context that can execute queries. Our attention Mechanism offers the following improvements to the previously popular attention paradigms. In the first place, our Attention level is not used to summarize the context paragraph in a fixed-size vector. </c></p>
+<p style="Normal" xid="261" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; lang:ar-SA; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none"></c></p>
+<p style="Normal" xid="262" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">Instead, the Attention is calculated for every step of time, and the vector frequented at every step of time, together with the Representations from previous levels, it is allowed to flow up to the next modeling level. This reduces the loss of information caused by initial recapitulation. Second, we use a less memory Attention mechanism.</c></p>
+<p style="Normal" xid="263" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US"></c></p>
+<p style="Normal" xid="264" props="font-family:Times New Roman; font-size:12pt; dom-dir:ltr; color:000000; text-decoration:none; text-align:left; text-position:normal; font-weight:normal; font-style:normal"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:en-US">After the implementation and training of the LTNLP model, it is further tested and evaluated on the test data set. </c></p>
+</section>
+</abiword>

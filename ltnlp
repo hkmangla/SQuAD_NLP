@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python /home/hkmangla/workspace/college_project/main.py

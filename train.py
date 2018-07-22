@@ -1,6 +1,6 @@
 import tensorflow as tf
 import sys
-sys.path.append('tools/')
+sys.path.append('/home/hkmangla/workspace/college_project/tools/')
 from utils import *
 from encoder import Encoder
 from decoder import Decoder
@@ -8,7 +8,7 @@ from qa_system import QASystem
 
 import logging
 
-logger = set_logger("train/log.txt")
+logger = set_logger("/home/hkmangla/workspace/college_project/train/log.txt")
 
 model_name = '/baseline4'
 tf.app.flags.DEFINE_float("base_lr", 0.001, "Basic learning rate.")
@@ -23,14 +23,14 @@ tf.app.flags.DEFINE_integer("output_size", 2, "The output size of your model.")
 tf.app.flags.DEFINE_integer("embedding_size", 100, "Size of the pretrained vocabulary.")
 tf.app.flags.DEFINE_integer("max_context_len", 600, "max length of the context input")
 tf.app.flags.DEFINE_integer("max_question_len", 100, "max length of the question input")
-tf.app.flags.DEFINE_string("data_dir", "data/squad", "SQuAD directory (default ./data/squad)")
-tf.app.flags.DEFINE_string("train_dir", "train", "Training directory to save the model parameters (default: ./train).")
+tf.app.flags.DEFINE_string("data_dir", "/home/hkmangla/workspace/college_project/data/squad", "SQuAD directory (default ./data/squad)")
+tf.app.flags.DEFINE_string("train_dir", "/home/hkmangla/workspace/college_project/train", "Training directory to save the model parameters (default: ./train).")
 tf.app.flags.DEFINE_string("load_train_dir", "", "Training directory to load model parameters from to resume training (default: {train_dir}).")
 tf.app.flags.DEFINE_string("log_dir", "log" + model_name, "Path to store log and flag files (default: ./log)")
-tf.app.flags.DEFINE_string("vocab_path", "data/squad/vocab.dat", "Path to vocab file (default: ./data/squad/vocab.dat)")
+tf.app.flags.DEFINE_string("vocab_path", "/home/hkmangla/workspace/college_project/data/squad/vocab.dat", "Path to vocab file (default: ./data/squad/vocab.dat)")
 tf.app.flags.DEFINE_string("embed_path", "", "Path to the trimmed GLoVe embedding (default: ./data/squad/glove.trimmed.{embedding_size}.npz)")
 tf.app.flags.DEFINE_string("model_name", model_name, "name of the model")
-tf.app.flags.DEFINE_string('summary_dir', 'summary' + model_name, 'tensorboard summary dir')
+tf.app.flags.DEFINE_string('summary_dir', '/home/hkmangla/workspace/college_project/summary' + model_name, 'tensorboard summary dir')
 tf.app.flags.DEFINE_bool('summary_flag', True, 'if true log summary')
 
 
@@ -51,26 +51,23 @@ def initialize_model(session, model, train_dir):
 
 def main(_):
 
-    data_dir = os.path.join('data','processed','squad','train') 
+    data_dir = os.path.join('/home/hkmangla/workspace/college_project/','data','processed','squad','train') 
     train_data, val_data = load_data(data_dir, FLAGS.max_context_len, FLAGS.max_question_len)
     
-    vocab_path = os.path.join('data','processed','vocab','vocab.dat')
+    vocab_path = os.path.join('/home/hkmangla/workspace/college_project/','data','processed','vocab','vocab.dat')
     vocab, rev_vocab = initialize_vocab(vocab_path)
 
-    embd_dir = os.path.join('data','download','glove','glove.trimmered_100.npz')
+    embd_dir = os.path.join('/home/hkmangla/workspace/college_project/','data','download','glove','glove.trimmered_100.npz')
     print embd_dir
     embed = load_embeddings(embd_dir)
 
     embeddings = tf.constant(embed, tf.float32)
-    #Dummy code... must have to edit
-
-    #Below functions are not implemented till
     encoder = Encoder(FLAGS.state_size, FLAGS.summary_flag, FLAGS.max_context_len, FLAGS.max_question_len)
     decoder = Decoder(FLAGS.state_size, FLAGS.summary_flag)
 
     qa = QASystem(encoder, decoder, FLAGS, embeddings, vocab)
     
-    train_dir = os.path.join("train")
+    train_dir = os.path.join('/home/hkmangla/workspace/college_project/',"train")
     #Here training part
     
     with tf.Session() as sess:

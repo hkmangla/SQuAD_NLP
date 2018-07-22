@@ -1,3 +1,4 @@
+
 from __future__ import print_function
 from __future__ import absolute_import
 from __future__ import division
@@ -7,7 +8,7 @@ import logging
 import numpy as np
 import tensorflow as tf
 import sys
-sys.path.append('tools/')
+sys.path.append('/home/hkmangla/workspace/college_project/tools/')
 from utils import variable_summaries
 
 logging.basicConfig(level=logging.INFO)
